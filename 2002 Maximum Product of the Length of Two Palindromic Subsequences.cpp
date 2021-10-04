@@ -7,6 +7,7 @@ class Solution {
 public:
     int maxProduct(string s) {
         int ans = 0;
+        int len = s.length();
         
 
         return ans;

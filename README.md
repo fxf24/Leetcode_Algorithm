@@ -18,3 +18,12 @@
 * Return *the **maximum** possible **product** of the lengths of the two palindromic subsequences*.
 * A **subsequence** is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters. A string is **palindromic** if it reads the same forward and backward.
 * [2002 source](./)
+
+## 2011. Final Value of Variable After Performing Operations
+
+* There is a programming language with only **four** operations and **one** variable `X`:
+  - `++X` and `X++` **increments** the value of the variable `X` by `1`.
+  - `--X` and `X--` **decrements** the value of the variable `X` by `1`.
+* Initially, the value of `X` is `0`.
+* Given an array of strings `operations` containing a list of operations, return *the **final** value of* `X` *after performing all the operations*.
+* [2011 source](./)
