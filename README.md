@@ -27,3 +27,13 @@
 * Initially, the value of `X` is `0`.
 * Given an array of strings `operations` containing a list of operations, return *the **final** value of* `X` *after performing all the operations*.
 * [2011 source](./2011%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.cpp)
+
+## 2012. Sum of Beauty in the Array
+
+* You are given a **0-indexed** integer array `nums`. For each index `i` (`1 <= i <= nums.length - 2`) the **beauty** of `nums[i]` equals:
+  - `2`, if `nums[j] < nums[i] < nums[k]`, for **all** `0 <= j < i` and for **all** `i < k <= nums.length - 1`.
+  - `1`, if `nums[i - 1] < nums[i] < nums[i + 1]`, and the previous condition is not satisfied.
+  - `0`, if none of the previous conditions holds.
+* Return *the **sum of beauty** of all* `nums[i]` *where* `1 <= i <= nums.length - 2`.
+* [2012 source](./)
+
