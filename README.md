@@ -63,6 +63,22 @@
 * Both robots initially start at `(0, 0)` and want to reach `(1, n-1)`. Each robot may only move to the **right** (`(r, c)` to `(r, c + 1)`) or **down** (`(r, c)` to `(r + 1, c)`).
 * At the start of the game, the **first** robot moves from `(0, 0)` to `(1, n-1)`, collecting all the points from the cells on its path. For all cells `(r, c)` traversed on the path, `grid[r][c]` is set to `0`. Then, the **second** robot moves from `(0, 0)` to `(1, n-1)`, collecting the points on its path. Note that their paths may intersect with one another.
 * The **first** robot wants to **minimize** the number of points collected by the **second** robot. In contrast, the **second** robot wants to **maximize** the number of points it collects. If both robots play **optimally**, return *the **number of points** collected by the **second** robot.*
-
 * [2017 source](./2017%20Grid%20Game.cpp)
 
+## 2018. Check if Word Can Be Placed In Crossword
+
+* You are given an `m x n` matrix `board`, representing the **current** state of a crossword puzzle. The crossword contains lowercase English letters (from solved words), `' '` to represent any **empty** cells, and `'#'` to represent any **blocked** cells.
+* A word can be placed **horizontally** (left to right **or** right to left) or **vertically** (top to bottom **or** bottom to top) in the board if:
+  * It does not occupy a cell containing the character `'#'`.
+  * The cell each letter is placed in must either be `' '` (empty) or **match** the letter already on the `board`.
+  * There must not be any empty cells `' '` or other lowercase letters **directly left or right** of the word if the word was placed **horizontally**.
+  * There must not be any empty cells `' '` or other lowercase letters **directly above or below** the word if the word was placed **vertically**.
+* Given a string `word`, return `true` *if* `word` *can be placed in* `board`*, or* `false` ***otherwise***.
+* [2018 source](./)
+
+## 2027. Minimum Moves to Convert String
+
+* You are given a string `s` consisting of `n` characters which are either `'X'` or `'O'`.
+* A **move** is defined as selecting **three** **consecutive characters** of `s` and converting them to `'O'`. Note that if a move is applied to the character `'O'`, it will stay the **same**.
+* Return *the **minimum** number of moves required so that all the characters of* `s` *are converted to* `'O'`.
+* [2027 source](./)
