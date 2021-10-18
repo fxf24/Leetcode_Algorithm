@@ -21,7 +21,7 @@ public:
             ans += 1;
         }
         else if (s[size-1] == 'X'){
-            s[size-1] = 'O'
+            s[size-1] = 'O';
             ans += 1;
         }
 
